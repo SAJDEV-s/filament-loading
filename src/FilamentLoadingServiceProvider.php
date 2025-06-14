@@ -2,9 +2,9 @@
 
 namespace Loading\FilamentLoading;
 
+use Loading\FilamentLoading\Commands\FilamentLoadingCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Loading\FilamentLoading\Commands\FilamentLoadingCommand;
 
 class FilamentLoadingServiceProvider extends PackageServiceProvider
 {
